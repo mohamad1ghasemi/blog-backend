@@ -4,7 +4,7 @@ import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 
 @Controller('users')
 @ApiTags('Users')
-export class AppController {
+export class UserController {
   @Get()
   @ApiOperation({ summary: 'Get all users' })
   @ApiResponse({
